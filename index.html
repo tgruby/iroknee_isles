@@ -6,19 +6,28 @@
         body {
             text-align: center;
             padding: 20px;
-            background-color: #b3d9ff; /* Light blue to match the island and ocean theme */
             color: #333; /* Dark text for readability */
+            font-family: 'Courier New', monospace; /* Survival game-like font */
+            margin: 0; /* Remove default margin */
+            height: 100vh; /* Full viewport height */
+            background: url('./iroknee-isles.jpg') no-repeat center center fixed; 
+            background-size: cover; /* Stretch and cover the entire viewport */
         }
 
         img {
             max-width: 100%;
             height: auto;
+            display: block; /* Remove extra space below the image */
+            margin: 0 auto; /* Center the image */
+        }
+
+        h1 {
+            margin-top: 0; /* Align title to the top */
         }
     </style>
 </head>
 <body>
     <h1>Welcome to Iroknee Isles!</h1>
     <p>Embark on an adventure in the Iroknee Isles and fight for survival.</p>
-    <img src="iroknee-isles.jpg" alt="Iroknee Isles Game Scene">
 </body>
 </html>
