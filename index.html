@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Iroknee Isles Game</title>
+    <title>Iroknee Isles</title>
     <style>
-        body {
-            text-align: center;
-            padding: 20px;
-            color: #333; /* Dark text for readability */
-            font-family: 'Courier New', monospace; /* Survival game-like font */
+        html, body {
+            height: 100%; /* Full height for the body and html */
             margin: 0; /* Remove default margin */
-            height: 100vh; /* Full viewport height */
-            background: url('./iroknee-isles.jpg') no-repeat center center fixed; 
+            padding: 0; /* Remove default padding */
+        }
+
+        body {
+            display: flex; /* Enable flexbox */
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            text-align: center; /* Center text horizontally */
+            color: #FFF; /* White text for readability */
+            font-family: Tahoma, sans-serif;
+            background: url('iroknee-isles.png') no-repeat center center fixed; 
             background-size: cover; /* Stretch and cover the entire viewport */
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block; /* Remove extra space below the image */
-            margin: 0 auto; /* Center the image */
+        .content {
+            display: block;
         }
 
         h1 {
-            margin-top: 0; /* Align title to the top */
+            margin: 0; /* Align title to the top */
+            text-shadow: 2px 2px black;
+        }
+        
+        h3 {
+            margin: 0; /* Align title to the top */
+            text-shadow: 2px 2px black;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Iroknee Isles!</h1>
-    <p>Embark on an adventure in the Iroknee Isles and fight for survival.</p>
+    <div class="content">
+        <h1>Welcome to Iroknee Isles!</h1>
+        <h3>Squad Up, Fortify, and Survive (or die trying)!</h3>
+        <h3>Iroknee Isles Awaits!</h3>
+    </div>
 </body>
 </html>
